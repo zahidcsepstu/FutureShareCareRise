@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logoname{
+	background-color:#040503;
+	color:#FFFFFF;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	text-align:center;
+	line-height: 100%;
+	
+	/*border-radius:26px; */
+	border-bottom-color: #8F8383;
+	border-top-color: #8F8383;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	font : outline;
+	box-shadow: 0 8px 10px -2px #555;
+	
+	}
+	
+	
+	.nav {
+		top:96px;
+		left:0;
+		right:0;
+		background: #080a07;
+		text-align: center;
+		box-shadow: 0 8px 10px -2px #120d0d;
+		position: fixed;
+	}
+	
+	.nav ul{
+		list-style: none outside none;
+		text-align: center;
+		margin: 0;
+	
+	}
+	.nav ul li{
+		
+		display: inline;
+	
+	}
+	
+	.nav ul li a {
+		text-decoration: none;
+		padding: 6px;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 17px;
+		display: inline-block;
+		color: #fff;
+		margin-right: 45px;
+	}
+
+
+	h1 {
+		font-size: 45px;
+		letter-spacing: 5px;
+		padding-top: 10px;
+		padding-bottom: 1px;
+		 margin: 5px;
+		 /*text-shadow: 3px 2px red;*/
+		 font-family: Verdana, Geneva, sans-serif;
+	 }
+	 h2 {
+		 font-size: 45px;
+		 margin-top: 60px;
+		 margin-bottom: 3px;
+		 font-family: Verdana, Geneva, sans-serif;
+	 }
+	 h6 {
+		 font-size:10px;
+		 letter-spacing: 6px;
+		 word-spacing: 11px;
+		  margin: 20px 10px 20px;
+		  /*text-shadow: 3px 2px red;*/
+		  font-family: Verdana, Geneva, sans-serif;
+	  }
+	  .logoname a{
+		  color: #FFFFFF;
+		  text-decoration: none;
+	  }
+	  .logoname img {
+		 float: left;
+		 width: 61px;
+		 margin-left: 435px;
+		 margin-right: -500px;
+		 margin-top: 6px;
+	 }
+
+
+*
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+	background:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+#header
+{
+	background:#00a2d1;
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#body
+{
+	margin-top:100px;
+}
+#body table
+{
+	margin:0 auto;
+	position:relative;
+	bottom:50px;
+}
+
+.file3 {
+	float: left;
+	width: 1118px;
+	height: 239px;
+	margin-top: 87px;
+	margin-left: 38px;
+	padding: 9px;
+	text-align: justify;
+	border: 1px solid #FFFFFF;
+	margin-bottom: -61px;
+	margin-right: 10px;
+	padding: 9px;
+	box-shadow: 5px 8px 15px -3px #12938a;
+	border: 1px solid #09968b4d;
+}
+.file3 ul li {
+	color: #000;
+	list-style: none;
+	padding: 5px;
+}
+
+.input-group select {
+	height: 35px;
+	width: 23%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border: 1px solid #000000;
+	margin-bottom: 12px;
+}
+
+.input-group2 input {
+	height: 35px;
+	width: 23%;
+	padding: 5px 10px;
+	font-size: 16px;
+	/* border: 1px solid #000000; */
+	margin-bottom: 8px;
+	margin-left: 50px;
+}
+.button button {
+	font-size: 23px;
+	margin-left: -154px;
+	margin-bottom: -14px;
+}
+
+.input_group button {
+	margin-left: 907px;
+	width: 72px;
+	height: 33px;
+	/* margin-bottom: 0px; */
+}
+.button button {
+	font-size: 23px;
+	margin-left: -154px;
+	margin-bottom: -14px;
+}
+.assignment {
+	margin-bottom: -164px;
+	margin-top: 149px;
+}
+#body p {
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+
+
+.description label {
+	font-size: 17px;
+	text-transform: capitalize;
+	/* letter-spacing: 4px; */
+	margin-left: -42px;
+}
+.description input {
+	width: 277px;
+	height: 37px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	margin-left: 1px;
+table td,th
+{
+	padding:20px;
+	border: solid #9fa8b0 1px;
+	border-collapse:collapse;
+}
+#footer
+{
+	text-align:center;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:50px;
+}
